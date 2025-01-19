@@ -19,7 +19,7 @@
   // make new sections appear on the right hand side
   set pagebreak(weak: true, to: "odd")
 
-  show par: set block(spacing: 20pt)
+  set par(spacing: 20pt)
   set par(leading: 12pt, justify: true)
   set page(
     margin: (left: 2.5cm, right: 2.5cm, top: 2.5cm, bottom: 2.5cm), paper: "a4", numbering: "I", header: context{
