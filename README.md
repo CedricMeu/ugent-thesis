@@ -1,6 +1,6 @@
-# UGent Master Thesis Template
+# UGent Thesis Template
 
-This Typst template is made for a master thesis at UGent.
+This Typst template is intended to use for a dissertation at UGent.
 The authors of this template are not affiliated with UGent.
 
 ## Usage
@@ -12,13 +12,6 @@ the UGent fonts are not installed system-wide. This command will create the outp
 typst watch main.typ --font-path fonts
 ```
 
-## Features
-- styling of headings and page numbering, etc.
-
-## Dependencies
-
-- The library [acrostiche](https://typst.app/universe/package/acrostiche) is used to manage acronyms.
-    These are maintained under `src/acronyms.typ`.
-
 ## License
+
 This template is licensed under the GPL-3.0 license. See the LICENSE file for more information.
